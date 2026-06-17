@@ -1,0 +1,48 @@
+Aysha Sasani
+Associate / Junior Software Engineer
+
+Email: imsasani11@gmail.com
+Phone: +94 77 23 44 094
+GitHub: https://github.com/ayshasasani
+LinkedIn: https://linkedin.com/in/aysha-sasani-00a68128a
+
+Summary
+Software Engineering graduate with hands-on experience in mobile and full-stack
+application development. Skilled in React Native, React, Spring Boot, REST API
+integration, databases, Firebase, AWS, Docker, and maintainable product
+architecture.
+
+Experience
+Software Engineering Intern - Codelantic
+2025 - 2026
+- Developed cross-platform mobile applications with React Native for Android
+  and iOS.
+- Built reusable UI components and integrated RESTful APIs with asynchronous
+  data flows.
+- Used Firebase services including FCM and Analytics.
+- Collaborated in Agile teams, participated in code reviews, and improved app
+  performance and stability.
+
+Projects
+Loan & Expense Management System
+- Spring Boot, React, TypeScript, PostgreSQL
+- Built workflows for loan lifecycle management, repayments, expenses,
+  role-based access, audit logging, and reporting.
+
+Smart CRM Dashboard
+- React, Django, MongoDB, Machine Learning
+- Built dashboard workflows for lead scoring, sentiment analysis, and
+  role-based customer management.
+
+Calling Agent Mobile App
+- React Native, TypeScript, REST APIs
+- Built mobile task execution flows with API integration, retry-aware
+  asynchronous workflows, and reusable components.
+
+Education
+BSc (Hons) in Software Engineering
+Cardiff Metropolitan University via ICBT Campus - 2025
+
+Technical Skills
+Java, Spring Boot, JavaScript, React, React Native, Expo, TypeScript, Python,
+Django, PostgreSQL, MySQL, MongoDB, Firebase, AWS, Docker, REST APIs, Git
