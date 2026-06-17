@@ -1,0 +1,139 @@
+.hero {
+  min-height: min(760px, calc(100svh - 72px));
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
+  align-items: center;
+  gap: 3rem;
+  padding-top: 5.5rem;
+}
+
+.hero__copy {
+  max-width: 680px;
+}
+
+.hero__eyebrow {
+  width: fit-content;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  margin-top: 1rem;
+  font-size: clamp(3rem, 8vw, 5.8rem);
+}
+
+.hero__subtitle {
+  max-width: 52ch;
+  margin-top: 1rem;
+  font-size: 1.12rem;
+  color: var(--muted);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.hero__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0.7rem 1.05rem;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.hero__cta:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
+
+.hero__cta--secondary {
+  background: transparent;
+  color: var(--accent-strong);
+  border-color: var(--border);
+}
+
+.hero__visual {
+  position: relative;
+  min-height: 420px;
+  display: grid;
+  place-items: center;
+  border-radius: 28px;
+  background:
+    linear-gradient(135deg, rgba(37, 111, 91, 0.12), transparent 55%),
+    var(--surface-alt);
+  overflow: hidden;
+}
+
+.hero__visual::before {
+  content: '';
+  position: absolute;
+  inset: 42px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+}
+
+.hero__visual img {
+  position: relative;
+  z-index: 1;
+  width: min(76%, 360px);
+  height: auto;
+  filter: drop-shadow(0 24px 28px rgba(37, 111, 91, 0.2));
+}
+
+.hero__panel {
+  position: absolute;
+  z-index: 2;
+  left: 1.25rem;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.hero__panel span {
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  color: var(--text-h);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: auto;
+    padding-top: 3.5rem;
+  }
+
+  .hero__visual {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero__actions {
+    flex-direction: column;
+  }
+
+  .hero__cta {
+    width: 100%;
+  }
+}
